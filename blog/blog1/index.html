@@ -17,10 +17,24 @@
     
     
 
-    <title>My New Hugo Site | Secrets To ML – Even In This Down Economy</title>
+    <title>Rajiv Bharadwaj | Secrets To ML – Even In This Down Economy</title>
 
 
     
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-KY7CYCGLLC"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-KY7CYCGLLC');
+        }
+      </script>
 
 </head><body class="container d-flex flex-column min-vh-100">
 
@@ -74,12 +88,17 @@
         
         <nav id="TableOfContents">
   <ul>
-    <li><a href="#header-2">Header 2</a>
+    <li><a href="#header-i">Header <code>I</code></a>
       <ul>
-        <li><a href="#header-3">Header 3</a></li>
-        <li><a href="#header-4">Header 4</a></li>
+        <li><a href="#header-2">Header 2</a>
+          <ul>
+            <li><a href="#header-3">Header 3</a></li>
+            <li><a href="#header-4">Header 4</a></li>
+          </ul>
+        </li>
       </ul>
     </li>
+    <li><a href="#header-ii">Header <code>II</code></a></li>
   </ul>
 </nav>
     </div>
@@ -103,7 +122,7 @@
 
 
 <footer class="mt-auto d-flex justify-content-center text-muted small secondary_font">
-    <span class="text-muted">Copyright (c) 2023, ,
+    <span class="text-muted">Copyright (c) 2024, Rajiv Bharadwaj,
         <a class="text-muted" href="https://github.com/hadisinaee/avicenna" target="_blank"> inspired by Avicenna
             (MIT)</a>
     </span>
