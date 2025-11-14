@@ -5,8 +5,7 @@ draft: false
 headless: true
 
 full_name: "Rajiv Bharadwaj"
-profile_picture: "avatar.jpg"
-cv: "static/rbharadwaj_cv.pdf"
+cv: "docs/rbharadwaj_cv.pdf"
 
 # set to false if you don't want to show your blog
 blog: false # true
@@ -14,6 +13,7 @@ blog: false # true
 socials:
     github: "rbharadwaj9"
     linkedin: "rajivbharadwaj"
+    email: "rbharadwaj@ethz.ch"
 
 interests:
     - Reinforcement Learning
@@ -25,7 +25,6 @@ affiliations:
     - affiliation:
         title: "MSc. Student in Robotics, Systems, and Control"
         name: "ETH Zürich"
-        email: "rajiv.bharadwaj8@gmail.com"
 
 academia:
     - course:
