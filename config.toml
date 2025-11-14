@@ -1,0 +1,41 @@
+baseURL = "https://rbharadwaj9.github.io"
+
+# set your your own ga token here.
+googleAnalytics = ""
+
+languageCode = "en-us"
+
+# for using avicenna you need to set the themes to 'avicenna'
+enableEmoji = true
+theme = "avicenna"
+
+# This is your page title, it appears in your tab
+title = "Rajiv Bharadwaj"
+
+# number of posts to show on the blog page
+[pagination]
+    pagerSize = 10
+
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true
+[markup.tableOfContents]
+endLevel = 3
+ordered = false
+startLevel = 1
+
+[params]
+# it is used for the copy-right section of your page
+name = "Rajiv Bharadwaj"
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = "-110"
+  [[menu.main]]
+    identifier = "posts"
+    name = "Post"
+    url = "/posts/"
+    weight = -200
