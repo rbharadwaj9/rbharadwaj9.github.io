@@ -1,11 +1,8 @@
 baseURL = "https://rbharadwaj9.github.io"
 
-# set your your own ga token here.
-googleAnalytics = ""
 
 languageCode = "en-us"
 
-# for using avicenna you need to set the themes to 'avicenna'
 enableEmoji = true
 theme = "maverick"
 
@@ -35,6 +32,10 @@ startLevel = 1
     Theme based on Maverick by Calvin Canh Tran ([@canhtran](https://github.com/canhtran))
     """
 
+[params.umami]
+    scriptUrl = "https://cloud.umami.is/script.js"
+    websiteId = "02d17b58-2365-40d2-bad6-68bfa9f738b6"
+
 [params.news]
     numNews = 5
 
@@ -43,15 +44,15 @@ startLevel = 1
 
 [menu]
   [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about/"
-    weight = "-110"
+    # identifier = "projects"
+    # name = "Projects"
+    # url = "/projects/"
+    # weight = "-110"
   [[menu.main]]
-    identifier = "posts"
-    name = "Post"
-    url = "/posts/"
-    weight = -200
+    # identifier = "posts"
+    # name = "Post"
+    # url = "/posts/"
+    # weight = -200
 
 [taxonomies]
   tag = "tags"
