@@ -44,15 +44,15 @@ startLevel = 1
 
 [menu]
   [[menu.main]]
-    # identifier = "projects"
-    # name = "Projects"
-    # url = "/projects/"
-    # weight = "-110"
+    identifier = "projects"
+    name = "Projects"
+    url = "#projects-section"
+    weight = -110
   [[menu.main]]
-    # identifier = "posts"
-    # name = "Post"
-    # url = "/posts/"
-    # weight = -200
+    identifier = "news"
+    name = "News"
+    url = "#news-section"
+    weight = -200
 
 [taxonomies]
   tag = "tags"
