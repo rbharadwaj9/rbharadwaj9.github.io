@@ -37,7 +37,7 @@ Outside of work, I love to play tennis, hike, and explore my creative side via s
     rajiv.bharadwaj8@gmail.com
 </a>
 <br>
-<a class="no-underline" href="docs/rbharadwaj_cv.pdf" target="_blank">
+<a class="no-underline" href="docs/rbharadwaj_cv.pdf" onclick="umami.track('PDF Open', { filename: 'rbharadwaj_cv.pdf' });" target="_blank">
     <i class="fa-regular fa-file"></i>
     Resume
 </a>
