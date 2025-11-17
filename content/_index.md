@@ -3,7 +3,8 @@
 <img class="avatar" src="/images/profile_11_2025.jpg" alt="avatar">
 
 Hey, I am Rajiv!
-I'm a Master's student in Robotics, Systems, and Control at ETH Zürich, combining a strong software background with a passion for robotics.<br>
+I'm a Master's student in Robotics, Systems, and Control at ETH Zürich, combining a strong software background with a passion for robotics.
+
 My interests and coursework explore **Reinforcement Learning for Controls, Optimization Methods, Vision Algorithms, and Simulation**. I also find aerial robotics to be a fascinating area to explore!
 
 I recently completed my semester project at the [Robotic Systems Lab](https://rsl.ethz.ch) where I explored RL and student-teacher distillation methods for whole-body loco-manipulation tasks.
